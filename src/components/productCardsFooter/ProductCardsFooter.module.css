@@ -1,0 +1,142 @@
+.product__cards__footer {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    padding:  0 20px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.product__cards__footer__heading {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    padding-bottom: 10px;
+}
+
+.products__link__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.products__btn1 {
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-color: #fbc100;
+    padding: 7px 12px;
+    border-radius: 15px;
+}
+
+.products__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+    color: #336fee;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product__cards__footer__list {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    overflow: hidden;
+}
+
+.product__cards__footer__item {
+    max-width: 228px;
+    width: 100%;
+    transition: 0.3s ease;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.product__cards__footer__item:hover {
+    transform: scale(1.02);
+}
+
+.productCardsFooter__Img {
+    width: 196.5px;
+    height: 180px;
+    object-fit: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 26px;
+}
+
+.productsFooterCategory__wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.products__footer__name {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.products__footer__price {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.products__Footer__btnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products__Footer__btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 7px 12px;
+    border: none;
+    background: #fbc100;
+    border: 2px solid #fbc100;
+    border-radius: 6px;
+}
+
+.products__Footer__heart {
+    cursor: pointer;
+    border: none;
+    background: none;
+    width: 17px;
+    height: 24px;
+}
+
+.products__Footer__compare {
+    cursor: pointer;
+    border: none;
+    background: none;
+    width: 17px;
+    height: 24px;
+}
+
+.productCardsFooter__swiper {
+    border: none;
+    background: none;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: #fff!important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productCardsFooter__swiper[data-btn-type="right"] {
+    right: 0;
+}
+
+.productCardsFooter__swiper[data-btn-type="left"] {
+    left: 0;
+}

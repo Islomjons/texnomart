@@ -1,0 +1,55 @@
+.HeroBanner {
+    display: flex;
+    width: 1500px;
+    margin: auto;
+    position: relative;
+    padding-bottom: 45px;
+}
+
+.HeroBanner__wrapper {
+    overflow: hidden;
+    display: flex;
+}
+
+.carausel__img {
+    width: 1500px;
+}
+
+.carousel__btn {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    font-size: 40px;
+    cursor: pointer;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+
+.carousel__btn[data-btn-type="left"] {
+    left: 0;
+}
+
+.carousel__btn[data-btn-type="right"] {
+    right: 0;
+}
+
+.dots__wrapper {
+    display: flex;
+    position: absolute;
+    bottom: 280px;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    gap: 0 5px;
+    cursor: pointer;
+}
+
+.dot {
+    background-color: #caa5a5;
+    width: 10px;
+    height: 10px;
+    transition: 0.5s ease;
+    border-radius: 50%;
+}

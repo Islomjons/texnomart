@@ -1,0 +1,34 @@
+[
+    {
+        "categoriesImg": "https://backend.texnomart.uz/files/global/new-photo/img/special-slider/smartfon.svg",
+        "categoriesName": "Smartfonlar"
+    },
+    {
+        "categoriesImg": "https://backend.texnomart.uz/files/global/new-photo/img/special-slider/pilesos.svg",
+        "categoriesName": "Changyutgichlar"
+    },
+    {
+        "categoriesImg": "https://backend.texnomart.uz/files/global/new-photo/img/special-slider/planshet.svg",
+        "categoriesName": "Planshetlar"
+    },
+    {
+        "categoriesImg": "https://backend.texnomart.uz/files/global/new-photo/img/special-slider/xolodilnik.svg",
+        "categoriesName": "Muzlatgichlar"
+    },
+    {
+        "categoriesImg": "https://backend.texnomart.uz/files/global/new-photo/img/special-slider/klimaticheskaya-texnika.svg",
+        "categoriesName": "Havo soutgichlar"
+    },
+    {
+        "categoriesImg": "https://backend.texnomart.uz/files/global/new-photo/img/special-slider/lg.svg",
+        "categoriesName": "Televizorlar"
+    },
+    {
+        "categoriesImg": "https://backend.texnomart.uz/files/global/new-photo/img/special-slider/feni.svg",
+        "categoriesName": "Fenlar"
+    },
+    {
+        "categoriesImg": "https://backend.texnomart.uz/files/global/new-photo/img/special-slider/stiralnaya_mashina.svg",
+        "categoriesName": "Kir yuvish mashinalari"
+    }
+]

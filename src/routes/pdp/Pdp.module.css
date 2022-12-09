@@ -1,0 +1,64 @@
+.pdp {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    padding:  0 20px;
+}
+
+.container {
+    
+}
+
+.pdp__list {
+    max-width: 575px;
+}
+
+.pdp__item {
+
+}
+
+.pdp__title {
+    font-size: 24px;
+    color: #373f41;
+    margin-bottom: 20px; 
+}
+
+.pdp__img {
+    width: 575px;
+    height: 450px;
+    object-fit: cover;
+}
+
+.pdp__btn__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 18px;
+}
+
+.pdp__btn {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333333;
+}
+
+.pdp__img__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.pdp__images {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 3px;
+}
