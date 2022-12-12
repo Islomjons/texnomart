@@ -16,10 +16,6 @@ const HeaderBottom = () => {
                         <GrCatalog/>
                         {t("catalog")}
                     </button>
-                    <Link className={c.header__links}>
-                        <SlEnergy/>
-                        <strong>SARIQ HAFTA</strong>
-                    </Link>
                 </div>
                 {
                     headerBottomLinks.map(newLinks => 

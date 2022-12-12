@@ -58,7 +58,7 @@ const ProductCardsMain = () => {
                                  <div className={c.products__main__btnWrapper}>
                                     <button className={c.products__main__btns}>
                                         <FiShoppingCart/>
-                                        Savatchaga
+                                        {t("to__cart")}
                                     </button>
                                    <button className={c.products__main__heart}>
                                         <BsHeart />

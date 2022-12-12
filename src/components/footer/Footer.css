@@ -1,0 +1,132 @@
+.footer {
+    padding: 45px;
+    margin-top: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+}
+
+.container {
+    width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question__text{
+    margin-bottom: 14px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer__categoties-box {
+    margin-bottom: 14px;
+}
+
+.tell__number {
+    margin-top: 14px;
+    color: #fff;
+}
+
+
+.brend__list-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.footer__img-link {
+    padding: 7px 7px 4px 7px;
+    font-size: 36px;
+    margin-top: 2px;
+    background-color: #d8d8d833;;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.brend__list-item {
+    margin-right: 12px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.brends__img {
+    padding: 5px;
+}
+
+.playmarket {
+    margin-bottom: 34px;
+}
+
+.link__id {
+    font-size: 14px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+}
+
+.title__company {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.company__list {
+    margin-top: 20px;
+}
+
+.company__list-item {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.company__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.telegram__bot-father {
+    margin-top: 50px;
+}
+
+.telegram__bot {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 24px 12px 27px;
+    border: 2px dashed hsla(0,0%,84.7%,.2);
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.telegram__bot-img { 
+    color: #fff;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.footer__bottom {
+    display: flex;
+    align-items: center;
+}
+
+.footer__bottom__text {
+    width: 600px;
+    font-size: 12px;
+    line-height: 140%;
+    color: hsla(0,0%,100%,.7);
+    letter-spacing: .2px;
+}
+
+.wdjwcb {
+    margin-left: 420px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}

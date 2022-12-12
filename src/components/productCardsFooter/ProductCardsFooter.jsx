@@ -67,7 +67,7 @@ const ProductCardsFooter = () => {
                                     <div className={c.products__Footer__btnWrapper}>
                                         <button className={c.products__Footer__btns}>
                                             <FiShoppingCart />
-                                            Savatchga
+                                            {t("to__cart")}
                                         </button>
                                         <button className={c.products__Footer__heart}>
                                             <BsHeart />

@@ -1,6 +1,8 @@
 import React from "react"
 import Categories from "../../components/categories/Categories"
+import Credit from "../../components/credit/Credit"
 import HeroBanner from "../../components/heroBanner/HeroBanner"
+import ProductApple from "../../components/productApple/ProductApple"
 import ProductCards from "../../components/productCards/ProductCards"
 import ProductCardsBottom from "../../components/productCardsBottom/ProductCardsBottom"
 import ProductCardsFooter from "../../components/productCardsFooter/ProductCardsFooter"
@@ -19,7 +21,9 @@ const Home = () => {
             <ProductCardsMain />
             <ProductCardsBottom />
             <ProductCardsFooter />
-            <TexnomartApp /> 
+            <TexnomartApp />
+            <Credit />
+            <ProductApple />
         </div>
     )
 }

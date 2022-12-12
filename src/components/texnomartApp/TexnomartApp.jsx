@@ -3,9 +3,11 @@ import Image from "../../assets/images/bg-img.png"
 import ScannerImg from "../../assets/images/scanner.png"
 import GooglePlayImg from "../../assets/images/google-market.png"
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 
 const TexnomartApp = () => {
+    const { t } = useTranslation()
     return (
         <div className={c.texnomartapp}>
             <div className={c.container}>
@@ -16,13 +18,13 @@ const TexnomartApp = () => {
                 </div>
                 <div className={c.texnomart__right}>
                     <div className={c.texnomart__right__wrapper}>
-                        <h2 className={c.texnomart__right__heading}>Ilovani yuklang</h2>
-                        <p className={c.texnomart__right__text}>Haridlarni uydan chiqmagan holda mobil ilova orqali amalga oshiring!</p>
+                        <h2 className={c.texnomart__right__heading}>{t("install__app")}</h2>
+                        <p className={c.texnomart__right__text}>{t("mobile__app")}</p>
 
                         <div className={c.texnomart__right__scanner}>
                             <img className={c.texnomart__right__scanner__img} src={ScannerImg} alt="" />
                             <p className={c.texnomart__right__scanner__desc}>
-                            Kamerani yo`naltiring va Texnomart ilovasini bepul yuklang
+                            {t("texnomart__app")}
                             </p>
                         </div>
 

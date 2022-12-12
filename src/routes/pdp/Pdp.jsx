@@ -50,7 +50,7 @@ const Pdp = () => {
                     }
                 </div>
                 <div className={c.pdp__right}>
-                    
+                    <h2 className={c.pdp__right__heading}>{singleProductCards?.description}</h2>
                 </div>
             </div>
         </div>

@@ -1,0 +1,91 @@
+.productApple {
+    max-width: 1450px;
+    width: 100%;
+    margin: 0 auto;
+    padding:  0 20px;
+    position: relative;
+}
+
+.productHeading {
+    font-size: 24px;
+    color: #333;
+}
+
+.container {
+
+}
+
+.productList {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.productItem {
+    max-width: 228px;
+    width: 100%;
+}
+
+.productsImg {
+    width: 218px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 26px;
+}
+
+.productName {
+    color: #373f41;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.productApplePrice {
+
+}
+
+.productAppleBtn {
+    width: 44px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fbc100;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.productAppleWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productAppleIcon {
+    width: 21px;
+    height: 20px;
+}
+
+.productAppleSwiperBtn {
+    border: none;
+    background: none;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: #fff!important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productAppleSwiperBtn[data-btn-type="right"] {
+    right: 0;
+}
+
+.productAppleSwiperBtn[data-btn-type="left"] {
+    left: 0;
+}

@@ -9,7 +9,7 @@ import { AiOutlineHeart } from "react-icons/ai"
 import { FiShoppingCart } from "react-icons/fi"
 import { useTranslation } from "react-i18next"
 
-const Header = () => {
+const Header = ({setIsCartActive, setIsSignUpActive}) => {
     const { t } = useTranslation()
     return (
         <div className={c.header}>
@@ -35,10 +35,10 @@ const Header = () => {
                     <BsBoxSeam className={c.box}/>
                     <strong>{t("order__status")}</strong>
                 </Link>
-                <Link className={c.buyutma__wrapper}>
+                <button onClick={() => {setIsSignUpActive(true)}} className={c.buyutma__wrapper}>
                     <BsPerson className={c.box}/>
                     <strong>{t("enter")}</strong>
-                </Link>
+                </button>
                 <Link className={c.buyutma__wrapper}>
                     <GrCompare className={c.box}/>
                     <strong>{t("compare")}</strong>
@@ -47,10 +47,10 @@ const Header = () => {
                     <AiOutlineHeart className={c.box}/>
                     <strong>{t("like")}</strong>
                 </Link>
-                <Link className={c.buyutma__wrapper}>
+                <button onClick={() => {setIsCartActive(true)}} className={c.buyutma__wrapper}>
                     <FiShoppingCart className={c.box}/>
                     <strong>{t("cart")}</strong>
-                </Link>
+                </button>
             </div>
         </div>
     )

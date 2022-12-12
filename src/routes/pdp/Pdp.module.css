@@ -1,12 +1,13 @@
 .pdp {
-    max-width: 1500px;
+    max-width: 1450px;
     width: 100%;
     margin: 0 auto;
     padding:  0 20px;
 }
 
 .container {
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 .pdp__list {
@@ -21,6 +22,7 @@
     font-size: 24px;
     color: #373f41;
     margin-bottom: 20px; 
+    margin-top: 20px;
 }
 
 .pdp__img {
@@ -61,4 +63,8 @@
     object-fit: cover;
     cursor: pointer;
     border-radius: 3px;
+}
+
+.pdp__right__heading {
+    margin-top: 20px;
 }

@@ -1,6 +1,6 @@
 .HeroBanner {
     display: flex;
-    width: 1500px;
+    width: 1450px;
     margin: auto;
     position: relative;
     padding-bottom: 45px;
@@ -23,7 +23,7 @@
     background: none;
     font-size: 40px;
     cursor: pointer;
-    padding-right: 100px;
+    padding-right: 30px;
     padding-left: 30px;
 }
 
