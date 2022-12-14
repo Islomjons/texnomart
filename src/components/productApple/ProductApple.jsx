@@ -36,6 +36,7 @@ const ProductApple = () => {
             .then(response => response.json())
             .then(data => setProductApple(data.slice(40, 50)))
     }, [])
+
     return (
         <div className={c.productApple}>
             <h2 className={c.productHeading}>{t("recently__seen")}</h2>

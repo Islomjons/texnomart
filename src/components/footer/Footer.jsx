@@ -135,7 +135,7 @@ const Footer = () => {
             </li>
           </ul>
           </div>
-          ...  <div className='Company'>
+         <div className='Company'>
           <strong className='title__company'>
           {t("help")}
           </strong>
@@ -176,7 +176,7 @@ const Footer = () => {
         </div>
         <div className='footer__bottom'>
           <p className='footer__bottom__text'>2016-2022 © texnomart.uz. Barcha huquqlar himoyalangan. Tovarlarning ko'rsatilgan qiymati va ularni sotib olish shartlari joriy sanaga amal qiladi</p>
-          <div className='wdjwcb'>
+          <div className='footerBottomWrappers'>
             {
               CardsImg.map(newCards => 
                   <div key={uuidv4()} className="footer__bottom__wrapper">

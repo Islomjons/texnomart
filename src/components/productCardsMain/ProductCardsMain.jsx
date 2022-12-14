@@ -38,6 +38,7 @@ const ProductCardsMain = () => {
             .then(response => response.json())
             .then(data => setProductsCardsMain(data.slice(10, 20)))
     }, [])
+
     return (
         <div className={c.productcards__main}>
             <h2 className={c.productcards__main__heading}>{t("new__products")}</h2>
