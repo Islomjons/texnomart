@@ -43,6 +43,7 @@
 
 .login__text {
   cursor: pointer;
+  font-weight: bold;
 }
 
 .signIn__user {
